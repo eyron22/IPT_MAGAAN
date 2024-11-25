@@ -1,0 +1,236 @@
+/* General Styles */
+body {
+  background-image: url("https://i.pinimg.com/736x/0f/39/46/0f39460ecbc7a01d7e6082d5b188b1e3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.logo {
+  font-size: 24px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  transition: .3s;
+}
+.logo:hover{
+  color: blue;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  transition: .3s;
+}
+nav a:hover{
+  color:blue;
+}
+
+/* Main Section */
+main {
+  padding: 20px;
+}
+
+.about, .skills, .image-section {
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 40px;
+}
+
+/* About Section */
+h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: x-large;
+  }
+h2 {
+margin-bottom: 10px;
+text-align: center;
+font-size: 30px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*h4{
+font-size: 30px;
+  text-align: center;
+  justify-content: center;
+text-decoration: black;
+  direction: rtl;
+  margin-right: 20%;
+  background-attachment: fixed;
+  border: 1px solid #000;
+  border-radius: 50%;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-left: 70%; 
+} */
+h5{
+font-size: 30px;
+text-decoration: black;
+text-align: right;
+}
+p {
+font-family: Georgia, 'Times New Roman', Times, serif;
+align-items: right;
+color: black;
+font-size: large;
+}
+.text-field {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 60%;
+  height: 65vh;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+/* Skills Section */
+.skill-container {
+  display: flex;
+  justify-content: space-evenly;
+  right: 40%;
+}
+
+.skill {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 10px;
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Image Section */
+.image-container {
+position: absolute;
+right: 100px;
+
+}
+
+.image-container img {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-text {
+  text-align: left;
+}
+.card {
+  width: 500px;
+  height: 610px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  position: center;
+  right: 10%;
+}
+.card-img{
+  width: 300px;
+  height: 300px;
+  object-fit: auto;
+  display: flex;
+  float: left;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.card-content{
+  padding: 16px;
+
+}
+.card-content p{
+  font-size: 25px;
+  color: black;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+}
+.slides{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.slides h2{
+  font-size: 50px;
+}
+section{
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: transparent;
+  min-height: 100%;
+}
+section:nth-child(odd){
+  background-color: transparent;
+}
+html{
+  scroll-behavior: smooth;
+}
+h6 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 20px;
+}
+p1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 15px;
+}
+p2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 15px;
+}
+p3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 15px;
+}
+.social-icon1 {
+  color: blue;
+  font-size: 50px;
+}
+.social-icon2 {
+  color: dark orange, orange, royal blue, blue, purple, dark pink, purple-red, red, yellow, light yellow;
+  font-size: 50px;
+}
